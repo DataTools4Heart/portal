@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dt4h-portal:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./gui:/var/www/html

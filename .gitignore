@@ -1,0 +1,6 @@
+# Ignore Docker-related files
+.dockerignore
+
+# Ignore log and temporary files
+*.log
+*.tmp
